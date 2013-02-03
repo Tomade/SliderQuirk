@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33ED5B0316BE90860096C4FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED5B0216BE90860096C4FB /* UIKit.framework */; };
+		33ED5B0516BE90860096C4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED5B0416BE90860096C4FB /* Foundation.framework */; };
+		33ED5B0716BE90860096C4FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ED5B0616BE90860096C4FB /* CoreGraphics.framework */; };
+		33ED5B0D16BE90860096C4FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33ED5B0B16BE90860096C4FB /* InfoPlist.strings */; };
+		33ED5B0F16BE90860096C4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED5B0E16BE90860096C4FB /* main.m */; };
+		33ED5B1316BE90860096C4FB /* SQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED5B1216BE90860096C4FB /* SQAppDelegate.m */; };
+		33ED5B1516BE90860096C4FB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ED5B1416BE90860096C4FB /* Default.png */; };
+		33ED5B1716BE90860096C4FB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ED5B1616BE90860096C4FB /* Default@2x.png */; };
+		33ED5B1916BE90860096C4FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ED5B1816BE90860096C4FB /* Default-568h@2x.png */; };
+		33ED5B1C16BE90860096C4FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ED5B1A16BE90860096C4FB /* MainStoryboard.storyboard */; };
+		33ED5B1F16BE90860096C4FB /* SQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED5B1E16BE90860096C4FB /* SQViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33ED5AFF16BE90860096C4FB /* SliderQuirk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderQuirk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ED5B0216BE90860096C4FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33ED5B0416BE90860096C4FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33ED5B0616BE90860096C4FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33ED5B0A16BE90860096C4FB /* SliderQuirk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderQuirk-Info.plist"; sourceTree = "<group>"; };
+		33ED5B0C16BE90860096C4FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33ED5B0E16BE90860096C4FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33ED5B1016BE90860096C4FB /* SliderQuirk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderQuirk-Prefix.pch"; sourceTree = "<group>"; };
+		33ED5B1116BE90860096C4FB /* SQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQAppDelegate.h; sourceTree = "<group>"; };
+		33ED5B1216BE90860096C4FB /* SQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQAppDelegate.m; sourceTree = "<group>"; };
+		33ED5B1416BE90860096C4FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		33ED5B1616BE90860096C4FB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		33ED5B1816BE90860096C4FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		33ED5B1B16BE90860096C4FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		33ED5B1D16BE90860096C4FB /* SQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQViewController.h; sourceTree = "<group>"; };
+		33ED5B1E16BE90860096C4FB /* SQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33ED5AFC16BE90860096C4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED5B0316BE90860096C4FB /* UIKit.framework in Frameworks */,
+				33ED5B0516BE90860096C4FB /* Foundation.framework in Frameworks */,
+				33ED5B0716BE90860096C4FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ED5AF616BE90860096C4FB = {
+			isa = PBXGroup;
+			children = (
+				33ED5B0816BE90860096C4FB /* SliderQuirk */,
+				33ED5B0116BE90860096C4FB /* Frameworks */,
+				33ED5B0016BE90860096C4FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33ED5B0016BE90860096C4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33ED5AFF16BE90860096C4FB /* SliderQuirk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33ED5B0116BE90860096C4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33ED5B0216BE90860096C4FB /* UIKit.framework */,
+				33ED5B0416BE90860096C4FB /* Foundation.framework */,
+				33ED5B0616BE90860096C4FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33ED5B0816BE90860096C4FB /* SliderQuirk */ = {
+			isa = PBXGroup;
+			children = (
+				33ED5B1116BE90860096C4FB /* SQAppDelegate.h */,
+				33ED5B1216BE90860096C4FB /* SQAppDelegate.m */,
+				33ED5B1A16BE90860096C4FB /* MainStoryboard.storyboard */,
+				33ED5B1D16BE90860096C4FB /* SQViewController.h */,
+				33ED5B1E16BE90860096C4FB /* SQViewController.m */,
+				33ED5B0916BE90860096C4FB /* Supporting Files */,
+			);
+			path = SliderQuirk;
+			sourceTree = "<group>";
+		};
+		33ED5B0916BE90860096C4FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33ED5B0A16BE90860096C4FB /* SliderQuirk-Info.plist */,
+				33ED5B0B16BE90860096C4FB /* InfoPlist.strings */,
+				33ED5B0E16BE90860096C4FB /* main.m */,
+				33ED5B1016BE90860096C4FB /* SliderQuirk-Prefix.pch */,
+				33ED5B1416BE90860096C4FB /* Default.png */,
+				33ED5B1616BE90860096C4FB /* Default@2x.png */,
+				33ED5B1816BE90860096C4FB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33ED5AFE16BE90860096C4FB /* SliderQuirk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ED5B2216BE90860096C4FB /* Build configuration list for PBXNativeTarget "SliderQuirk" */;
+			buildPhases = (
+				33ED5AFB16BE90860096C4FB /* Sources */,
+				33ED5AFC16BE90860096C4FB /* Frameworks */,
+				33ED5AFD16BE90860096C4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderQuirk;
+			productName = SliderQuirk;
+			productReference = 33ED5AFF16BE90860096C4FB /* SliderQuirk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33ED5AF716BE90860096C4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sdeztech;
+			};
+			buildConfigurationList = 33ED5AFA16BE90860096C4FB /* Build configuration list for PBXProject "SliderQuirk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33ED5AF616BE90860096C4FB;
+			productRefGroup = 33ED5B0016BE90860096C4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33ED5AFE16BE90860096C4FB /* SliderQuirk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33ED5AFD16BE90860096C4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED5B0D16BE90860096C4FB /* InfoPlist.strings in Resources */,
+				33ED5B1516BE90860096C4FB /* Default.png in Resources */,
+				33ED5B1716BE90860096C4FB /* Default@2x.png in Resources */,
+				33ED5B1916BE90860096C4FB /* Default-568h@2x.png in Resources */,
+				33ED5B1C16BE90860096C4FB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33ED5AFB16BE90860096C4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED5B0F16BE90860096C4FB /* main.m in Sources */,
+				33ED5B1316BE90860096C4FB /* SQAppDelegate.m in Sources */,
+				33ED5B1F16BE90860096C4FB /* SQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33ED5B0B16BE90860096C4FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ED5B0C16BE90860096C4FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33ED5B1A16BE90860096C4FB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ED5B1B16BE90860096C4FB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33ED5B2016BE90860096C4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33ED5B2116BE90860096C4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33ED5B2316BE90860096C4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderQuirk/SliderQuirk-Prefix.pch";
+				INFOPLIST_FILE = "SliderQuirk/SliderQuirk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33ED5B2416BE90860096C4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderQuirk/SliderQuirk-Prefix.pch";
+				INFOPLIST_FILE = "SliderQuirk/SliderQuirk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33ED5AFA16BE90860096C4FB /* Build configuration list for PBXProject "SliderQuirk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED5B2016BE90860096C4FB /* Debug */,
+				33ED5B2116BE90860096C4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ED5B2216BE90860096C4FB /* Build configuration list for PBXNativeTarget "SliderQuirk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED5B2316BE90860096C4FB /* Debug */,
+				33ED5B2416BE90860096C4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33ED5AF716BE90860096C4FB /* Project object */;
+}
